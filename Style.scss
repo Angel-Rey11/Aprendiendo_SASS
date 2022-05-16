@@ -1,0 +1,16 @@
+$background-color: #e9190a; //variable
+$font-general-color: #220bf4;
+$title-color: #bced0b;
+
+body{
+    background-color: $background-color;
+    width: 100%;
+    margin: 0;
+    .table{
+        color: $font-general-color;
+        td {
+            color: $title-color;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+body {
+  background-color: #e9190a;
+  width: 100%;
+  margin: 0;
+}
+body .table {
+  color: #220bf4;
+}
+body .table td {
+  color: #0bed2d;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

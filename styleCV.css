@@ -1,0 +1,39 @@
+body {
+  background-color: rgba(33, 131, 196, 0.7058823529);
+  width: 100%;
+}
+body .container {
+  background-color: #dadbe3;
+  border: 2px solid blue;
+}
+body .container .header {
+  color: rgb(240, 152, 9);
+  text-align: center;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+body .container .details {
+  margin-top: 3%;
+  margin-left: 3%;
+  text-align: justify;
+}
+body .container .details .section .skills__item {
+  margin-left: 2%;
+  font-weight: bold;
+}
+body .container .details .section .section__title {
+  color: #f79b06;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+body .container .details .section .section__list {
+  margin-left: 2%;
+}
+body .container .details .section .section__list .section__list-item .left .name {
+  font-weight: bold;
+}
+body .container .details .section .section__list .section__list-item .right .name {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styleCV.css.map */
