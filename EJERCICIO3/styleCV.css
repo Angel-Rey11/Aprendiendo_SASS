@@ -1,0 +1,81 @@
+body {
+  background-color: rgba(33, 131, 196, 0.7058823529);
+  width: 100%;
+}
+body .container {
+  background-color: #dadbe3;
+  border: 2px solid blue;
+  background-color: black;
+  color: white;
+}
+body .container .header {
+  color: rgb(240, 152, 9);
+  text-align: center;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+body .container .details {
+  margin-top: 3%;
+  margin-left: 3%;
+  text-align: justify;
+  width: 50%;
+}
+body .container .details .section .skills__item {
+  margin-left: 2%;
+  font-weight: bold;
+}
+body .container .details .section .section__title {
+  color: #f79b06;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+body .container .details .section .section__list {
+  margin-left: 2%;
+}
+body .container .details .section .section__list .section__list-item .left .name {
+  font-weight: bold;
+}
+body .container .details .section .section__list .section__list-item .right .name {
+  font-weight: bold;
+}
+body table tr:nth-child(1) {
+  background-color: white;
+}
+body table tr:nth-child(2) {
+  background-color: red;
+}
+body table tr:nth-child(3) {
+  background-color: blue;
+}
+body table tr:nth-child(4) {
+  background-color: green;
+}
+body table tr:nth-child(5) {
+  background-color: grey;
+}
+body table tr:nth-child(6) {
+  background-color: yellow;
+}
+body table tr:nth-child(7) {
+  background-color: pink;
+}
+body h1 {
+  font-size: 30px;
+}
+body h2 {
+  font-size: 25px;
+}
+body h3 {
+  font-size: 20px;
+}
+body h4 {
+  font-size: 18px;
+}
+body h5 {
+  font-size: 16px;
+}
+body h6 {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=styleCV.css.map */
