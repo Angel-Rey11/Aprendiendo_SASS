@@ -1,0 +1,55 @@
+body {
+    background-color: $background-color;
+    width: 100%;
+    .container {
+        @include center;
+        background-color: $background-color-container;
+        border: 2px solid blue;
+        @if  $blanco == false {
+            background-color: black;
+            color: white
+        }@else{
+            background-color: white;
+            color: black;
+        }
+        .header {
+            color: $font-header-color;
+            text-align: center;
+            border-bottom: 2px solid black;
+            font-weight: bold;
+        }
+        .details { 
+            margin-top: 3%;
+            margin-left: 3%;
+            text-align: justify;
+            width: CalcularAnchura(100%, 2);
+            .section {
+                @include center-children;
+                .skills__item {
+                    margin-left: 2%;
+                    font-weight: bold;
+                }
+                .section__title {
+                    color: $font-details-color;
+                    font-size: 20px;
+                    border-bottom: 1px solid black;
+                }
+                .section__list {
+                    margin-left: 2%;
+                    .section__list-item {
+                        .left {
+                            .name {
+                                    font-weight: bold;
+                            }
+                        }
+                        .right {
+                            .name {
+                                    font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }  
+}

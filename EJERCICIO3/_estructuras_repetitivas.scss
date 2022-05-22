@@ -1,0 +1,15 @@
+@use "sass:list";
+
+table { 
+    @for $i from 1 through 7 {
+        tr:nth-child(#{$i}) {
+            background-color: list.nth($table-colors,$i);
+        }
+    }
+}
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: list.nth($title_font,$i);
+    }
+}

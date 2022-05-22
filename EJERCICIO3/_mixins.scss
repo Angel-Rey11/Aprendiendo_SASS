@@ -1,0 +1,11 @@
+@mixin center($width: null, $height: null) {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+@mixin center-children {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -6,9 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleCV.css">
     <title> </title>
+    <style>
+        #navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+    </style>
   </head>
   <body>
     <div class="container">
+        <a name=home> </a>
+        <div id="navbar">
+            <a class="active" href="#home">Inicio</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Horas">Horas</a>
+          </div>
         <div class="header">
             <div class="full-name">
                 <span class="first-name">John</span>
@@ -92,6 +138,7 @@
             </div>
             <h3> APARTADO 3 </h3>
             <div class="section">
+                <a name=Projects> </a>
                 <div class="section__title section-title-3">Projects</div>
                 <div class="section__list">
                     <div class="section__list-item">
@@ -176,6 +223,7 @@
             </div>
             <h6> APARTADO 6 </h6>
             <div class="section">
+                <a name=Horas> </a>
                 <div class="section__title">
                     Modulos de 1DAM
                 </div>
@@ -213,4 +261,19 @@
         </div>
     </div>
     </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
   </body>
+</html>

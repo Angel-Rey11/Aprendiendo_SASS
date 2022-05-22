@@ -1,0 +1,5 @@
+@use "sass:math";
+
+@function CalcularAnchura($anchoDisponible, $columnas) {
+    @return math.div($anchoDisponible,$columnas);
+}

@@ -1,8 +1,57 @@
+table tr:nth-child(1) {
+  background-color: white;
+}
+table tr:nth-child(2) {
+  background-color: red;
+}
+table tr:nth-child(3) {
+  background-color: blue;
+}
+table tr:nth-child(4) {
+  background-color: green;
+}
+table tr:nth-child(5) {
+  background-color: grey;
+}
+table tr:nth-child(6) {
+  background-color: yellow;
+}
+table tr:nth-child(7) {
+  background-color: pink;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
 body {
   background-color: rgba(33, 131, 196, 0.7058823529);
   width: 100%;
 }
 body .container {
+  position: absolute;
+  top: 10%;
+  left: 10%;
   background-color: #dadbe3;
   border: 2px solid blue;
   background-color: black;
@@ -19,6 +68,11 @@ body .container .details {
   margin-left: 3%;
   text-align: justify;
   width: 50%;
+}
+body .container .details .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body .container .details .section .skills__item {
   margin-left: 2%;
@@ -38,44 +92,35 @@ body .container .details .section .section__list .section__list-item .left .name
 body .container .details .section .section__list .section__list-item .right .name {
   font-weight: bold;
 }
-body table tr:nth-child(1) {
-  background-color: white;
+
+.body .container .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-body table tr:nth-child(2) {
-  background-color: red;
+.body .container .sticky + .content {
+  padding-top: 60px;
 }
-body table tr:nth-child(3) {
-  background-color: blue;
+.body .container #navbar {
+  overflow: hidden;
+  background-color: #333;
 }
-body table tr:nth-child(4) {
-  background-color: green;
+.body .container #navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-body table tr:nth-child(5) {
-  background-color: grey;
+.body .container #navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
-body table tr:nth-child(6) {
-  background-color: yellow;
-}
-body table tr:nth-child(7) {
-  background-color: pink;
-}
-body h1 {
-  font-size: 30px;
-}
-body h2 {
-  font-size: 25px;
-}
-body h3 {
-  font-size: 20px;
-}
-body h4 {
-  font-size: 18px;
-}
-body h5 {
-  font-size: 16px;
-}
-body h6 {
-  font-size: 14px;
+.body .container #navbar a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 /*# sourceMappingURL=styleCV.css.map */
