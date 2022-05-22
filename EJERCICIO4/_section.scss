@@ -1,0 +1,26 @@
+.section {
+    .skills__item {
+        margin-left: 2%;
+        font-weight: bold;
+    }
+    .section__title {
+        font-size: 20px;
+        border-bottom: 1px solid black;
+        margin-left: 2%;
+    }
+    .section__list {
+        margin-left: 3%;
+        .section__list-item {
+            .left {
+                .name {
+                        font-weight: bold;
+                }
+            }
+            .right {
+                .name {
+                        font-weight: bold;
+                }
+            }
+        }
+    }
+}

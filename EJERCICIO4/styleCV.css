@@ -1,0 +1,91 @@
+body {
+  width: 100%;
+  background-color: rgba(125, 129, 132, 0.7058823529);
+  color: #000000;
+}
+body .container .header .full-name .first-name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 3%;
+}
+body .container .header .full-name .last-name {
+  font-size: 30px;
+  font-weight: bold;
+}
+body .container .header .contact-info {
+  margin-left: 3%;
+}
+body .container .header .about {
+  margin-left: 3%;
+}
+
+.section .skills__item {
+  margin-left: 2%;
+  font-weight: bold;
+}
+.section .section__title {
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  margin-left: 2%;
+}
+.section .section__list {
+  margin-left: 3%;
+}
+.section .section__list .section__list-item .left .name {
+  font-weight: bold;
+}
+.section .section__list .section__list-item .right .name {
+  font-weight: bold;
+}
+
+.section_title section-title-11 {
+  color: red;
+}
+.section_title section-title-12 {
+  color: blue;
+}
+.section_title section-title-13 {
+  color: green;
+}
+.section_title section-title-14 {
+  color: yellow;
+}
+
+.container h1 {
+  margin: 0;
+}
+.container h2 {
+  margin: 0;
+}
+.container h3 {
+  margin: 0;
+}
+.container h4 {
+  margin: 0;
+}
+.container h5 {
+  margin: 0;
+}
+.container h6 {
+  margin: 0;
+}
+.container p1 {
+  margin: 0;
+}
+.container p2 {
+  margin: 0;
+}
+.container p3 {
+  margin: 0;
+}
+.container p4 {
+  margin: 0;
+}
+.container p5 {
+  margin: 0;
+}
+.container p6 {
+  margin: 0;
+}
+
+/*# sourceMappingURL=styleCV.css.map */

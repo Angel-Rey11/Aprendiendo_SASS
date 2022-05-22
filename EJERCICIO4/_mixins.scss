@@ -1,0 +1,16 @@
+@mixin reset {
+    @for $i from 1 through 6 {
+        h#{$i} {
+            margin: 0;
+        }
+    }
+    @for $i from 1 through 6 {
+        p#{$i} {
+            margin: 0;
+        }
+    }
+}
+
+@mixin centrado ($marginS, $marginI, $sizeElement) {
+    
+}

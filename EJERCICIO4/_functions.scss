@@ -1,0 +1,5 @@
+@use "sass:list";
+
+@function colorSectionTitle ($numero) {
+    @return list.nth($section-colors,$numero); 
+}

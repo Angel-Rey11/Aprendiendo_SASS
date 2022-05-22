@@ -1,0 +1,32 @@
+body {
+    width: 100%;
+        @if  $blanco == false {
+            background-color: $background-color-light;
+            color: $font-color-light;
+        }@else{
+            background-color: $background-color-dark;
+            color: $font-color-dark;
+        }
+        .container {
+            .header {
+                .full-name {
+                    .first-name {
+                        font-size: 30px;
+                        font-weight: bold;
+                        margin-left: 3%;
+                    }
+                    .last-name {
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+                }
+                .contact-info {
+                    margin-left: 3%;
+                    
+                }
+                .about {
+                    margin-left: 3%;
+                }
+            }
+        }
+}
